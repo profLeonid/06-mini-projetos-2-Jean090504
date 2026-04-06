@@ -17,10 +17,10 @@
 
     <div class="campo">
       <label>Número</label>
-      <input type="number" placeholder="Ex: 7"/>
+      <input type="number" placeholder="Ex: 7"/ id="numero"/>
     </div>
 
-    <button>Gerar Tabuada</button>
+    <button id="gerarTabuada" >Gerar Tabuada</button>
 
     <div class="resultado">
       <p class="resultado-titulo">Resultado</p>
@@ -35,21 +35,8 @@
               <th>Divisão</th>
             </tr>
           </thead>
-          <tbody>
-            <tr>
-              <td>1</td>
-              <td>8</td>
-              <td>6</td>
-              <td>7</td>
-              <td>7.00</td>
-            </tr>
-            <tr>
-              <td>2</td>
-              <td>9</td>
-              <td>5</td>
-              <td>14</td>
-              <td>3.50</td>
-            </tr>
+          <tbody id="tabela">
+            
           </tbody>
         </table>
       </div>
@@ -57,5 +44,7 @@
 
   </div>
 
+  <script type="module" src="./tabuada.js" defer></script>
+  <script type="module" src="./listaTabuada.js" defer></script>
 </body>
 </html>
